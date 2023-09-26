@@ -415,7 +415,9 @@ body {
 
 .navbar .nav-link {
   margin: 0 1rem;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  font-weight: bold !important;
+  text-transform: uppercase;
   font-weight: var(--weight-semibold);
 }
 
@@ -617,6 +619,7 @@ body {
   .nav-menu .nav-link {
     font-size: 0.9rem;
     margin: 0 0.2rem;
+    font-weight: bold;
   }
 
   .nav-menu li {
@@ -664,3 +667,22 @@ body {
     width: 80%;
   }
 }
+
+.services-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Add vertical spacing between cards */
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px; /* Add padding to create vertical spacing within cards */
+}
+
+.card-body {
+  flex: 1;
+}
+
+
